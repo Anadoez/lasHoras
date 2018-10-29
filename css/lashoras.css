@@ -1,0 +1,99 @@
+/*********************Estilos generales*******************************/
+body{
+    background-color: ivory;
+    color:brown;
+    font-family:"Georgia",Georgia,serif;
+}
+.clear{
+    clear:both;
+}
+ul{
+    list-style-type:none;
+    background-color: chocolate;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+li{
+    float:left;   
+    background-color: chocolate;
+    padding: 1%;
+    display:block;
+}
+li a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding:1%;
+    
+}
+li:hover{
+    background-color: brown;
+}
+.contacto{
+    float:right;
+}
+
+/************************Estilo del índice******************************/
+.AlignIzda{
+    text-align: left;
+}
+.AlignCentro{
+    text-align: center;
+}
+.AlignDrecha{
+    text-align: right;
+}
+
+/*******************************Estilo carta*****************************/
+#imagenesCarta{
+    margin:5%;
+}
+
+
+/*******************************Estilo cafe*****************************/
+#cafe p{
+    color:red;
+}
+.rgh{
+    float:left;
+    margin:1%;
+}
+.lgh{
+    float:right;
+    margin:1%;
+}
+
+
+
+/********************************Estilo contacto*******************************/
+form{
+    width:60%;
+    float:left;
+}
+input{
+    width:40%;
+    padding:0.5%;
+}
+button{
+    padding:1%;
+    background-color: brown;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+#datos{
+    float:right;
+    width:30%;
+    margin:2%;
+    padding:0%;
+    text-align: center;
+}
+.cuadro{
+    border: 2px solid chocolate;
+    padding:1%;
+    background-color: WHITE;
+    width:90%;
+    float:left;
+}
